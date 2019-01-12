@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(` By الشـمريىء#5588 .`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(` New Bot .`,'https://www.twitch.tv/v5bz');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
