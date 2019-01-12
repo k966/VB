@@ -1,9 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
-
 client.on('ready', () => {
-  console.log(`Your Bot Is Online ${client.user.tag}!`);
+  client.user.setGame('Type !bc ','https://www.twitch.tv/peery13');
+  console.log('---------------');
+  console.log(' Bot Is Online')
+  console.log('---------------')
 });
 
 
